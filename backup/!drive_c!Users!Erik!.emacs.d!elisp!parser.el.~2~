@@ -1,0 +1,66 @@
+;; parser.el
+;;
+;; Author: Erik P Almaraz 2019.05.12
+;;
+;;
+;; function isValid - Complexity Analysis:
+;;    TO DO:
+;;
+
+(defun is-valid (bstring)
+
+  "Parse BSTRING for brackets and determine if they are properly closed"
+
+  (interactive)
+
+  (let* (
+
+         (count 0)
+
+         (strung (split-string bstring "" t))
+
+         (len (length strung))
+
+         (cchar nil)
+
+         (stack nil)
+
+         (last nil)
+
+         (cache nil)
+
+         (flag nil)
+
+         (bra "[({[]")
+
+         (ket "[)}]]")
+
+         )
+
+    (while (<= count len)
+
+      (setq cchar (pop strung))
+
+      (if (string-match-p bra cchar)
+
+          (progn
+
+            (push cchar stack)
+
+            )
+
+        (if (string-match-p ket cchar)
+
+            )
+
+      (setq count (1+ count))))
+
+    flag)
+
+  )
+
+
+;; Tests
+(is-valid "([)]")
+(is-valid "(e){p}[a]")
+(is-valid " ")

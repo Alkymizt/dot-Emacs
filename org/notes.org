@@ -1,0 +1,25 @@
+* Scrounge Notes
+** Sunday <06-02-2019>
+*** Random
+    Today I am begining to set up Org Mode in emacs, this is my first
+    attempt. I am also going to see if test wrap works, and it does
+    seem to be working right now.  This program will definitely
+    expedite my note taking quite a bit, however, it will not as
+    easily incorporate my use of chemistry and mathematics...
+* Identity, Character, and Career:
+** Chapters
+*** Sections
+notes
+
+* Exercise, Nutrition, and Sleep:
+** Chapters
+*** Sections
+notes
+
+* Faith, Fear, and Failure:
+** Chapters
+*** Sections
+notes
+
+* References
+** Faith, Fear, and Failure
