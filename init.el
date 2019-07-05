@@ -19,7 +19,7 @@
        (theme-conf   "~/.emacs.d/conf/theme-conf.el")
        (tidee-conf   "~/.emacs.d/conf/tidee-conf")
        (erc-conf     "~/.emacs.d/conf/erc-conf")
-       (ispell-conf  "~/.emacs.d/conf/ispell-conf")
+       (spell-conf   "~/.emacs.d/conf/spell-conf")
 
        ;; Custom programs
        (utils        "~/.emacs.d/lisp/utils.el")
@@ -31,13 +31,15 @@
 
   ;; Load packages here...
   (load utils)
+
   (load emacs-conf)
   (load melpa-conf)
   (load theme-conf)
   (load tidee-conf)
   (load erc-conf)
+  (load spell-conf)
+
   (load pwshell)
-  (load ispell-conf)
   (load speck)
 
   ;; load last

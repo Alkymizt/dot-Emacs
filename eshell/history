@@ -1,0 +1,31 @@
+ls
+cd lisp/
+ls
+cd ..
+cd diary/
+ls
+mkdir Biblical-Notes
+ls
+cd Biblical-Notes/
+ls
+l
+ls
+cd .emacs.d/
+ls
+cd diary/
+ls
+rmdir -r Biblical-Notes/
+rmdir  Biblical-Notes/
+ls
+mkdir bible
+ls
+move biblical-series.txt bible/
+ls
+cd bible/
+ls
+cd ..
+ls
+mv biblical-series.txt bible/
+ls
+cd bible/
+ls

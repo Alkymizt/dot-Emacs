@@ -1,4 +1,4 @@
-;; ispell-conf.el
+;;spell-conf.el
 
 ;; 'ac-ispell.el' provides ispell/aspell completion source for auto-complete.
 ;;  You can use English word completion with it.
