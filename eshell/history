@@ -29,3 +29,36 @@ mv biblical-series.txt bible/
 ls
 cd bible/
 ls
+ls
+cd .emacs.d/
+ls
+git add .
+git commit -m "Orgazinational updates"
+git push
+git pull
+ls
+cd eshell/
+ls
+cd ..
+ls
+rmdir -r eshell
+rmdir ehsell
+;s
+l
+sls
+ls
+git add .
+git commit -m "update gitignore"
+git push
+git pull
+ls
+rmdir eshell
+ls
+rmdir -r ehsell
+rmdir -Force eshell
+rmdir /?
+rmdir -h
+rmdir -h
+rmdir --help
+rmdir -rf eshell/
+rmdir --r eshell/
