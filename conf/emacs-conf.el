@@ -51,7 +51,7 @@
 ;;Paragraph Filling / Word Wrapping
 ;;https://www.emacswiki.org/emacs/FillParagraph
 ;;The default value for fill-column is 70
-(setq-default fill-column 80)
+(setq-default fill-column 121)
 
 ;; See: https://www.emacswiki.org/emacs/AutoFillMode
 ;;(add-hook 'text-mode-hook 'turn-on-auto fill)
@@ -80,3 +80,9 @@
 
 (autoload 'pwsh "pwsh" "Run PowerShell as a shell within emacs." t)
 ;;(put 'dired-find-alternate-file 'disabled nil)
+
+;; spell check
+(setq ispell-program-name "~/.emacs.d/bin/hunspell-1.3.2-3-w32-bin/bin/hunspell.exe")
+
+;; Impliment custom themes
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")

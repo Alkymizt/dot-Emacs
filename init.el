@@ -53,5 +53,3 @@
 ;;this has to be loaded last for some reason, needs investigation...
 (require 'aes)
 (aes-enable-auto-decryption)
-
-(setq ispell-program-name "~/.emacs.d/bin/hunspell-1.3.2-3-w32-bin/bin/hunspell.exe")
