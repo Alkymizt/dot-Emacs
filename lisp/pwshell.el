@@ -4,7 +4,6 @@
 ;; Mon, 01 Jul 2019 5:00
 ;;
 ;; EDIT:
-;; powershell.el => pwsh.el (not to interfere with powershell-mode, if installed)
 ;; runs PowerShell Core 6.2 (pwsh.exe)
 ;; Attempt to fix errors and improve this script
 ;;
