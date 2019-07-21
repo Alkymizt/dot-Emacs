@@ -24,7 +24,8 @@
        ;; Custom programs
        (utils        "~/.emacs.d/lisp/utils.el")
        (pwshell      "~/.emacs.d/lisp/pwshell.el")
-       (speck        "~/.emacs.d/lisp/speck.el")
+       ;; Docket: Delete speck, not functioning... unless I can get it functioning
+       ;;(speck        "~/.emacs.d/lisp/speck.el")
 
        ;; load last
        )
@@ -40,7 +41,7 @@
   (load spell-conf)
 
   (load pwshell)
-  (load speck)
+  ;;(load speck)
 
   ;; load last
   )

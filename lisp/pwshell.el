@@ -12,7 +12,7 @@
 
 ;;erk - need to determine what functionality this provides...
 (defgroup pwshell nil
-  "Running pwshell from within Emacs buffers."
+  "Running PowerShell Core 6.x from within Emacs buffers."
   :group 'processes
   )
 
@@ -33,9 +33,11 @@
     ;; Set arguments for the powershell exe.
     ;; This needs to be tunable.
     (setq explicit-shell-file-name "c:\\Program Files\\PowerShell\\6\\pwsh.exe")
+
     ;; Launch the shell
     (shell buffer)
-    ; Restore the original shell
+
+    ;; Restore the original shell
     (if explicit-shell-file-name
         (setq explicit-shell-file-name tmp-shellfile)
       ))
