@@ -17,6 +17,8 @@
          (len (length strung))
          (bra "[[{(]")
          (ket "[]})]")
+         ;; Association List "alist"
+         ;; records a mapping from keys to values.
          (map '(("{" . "}")
                 ("[" . "]")
                 ("(" . ")")))
@@ -42,14 +44,14 @@
           (progn
             (push cchar stack)
             )
-        ;; else...
+        ;;..else..
         (if (string-match-p ket cchar)
             (progn
               (push (pop stack) cache)
               (setq last (car cache))
               (if (not (equal (cdr (assoc last map)) cchar))
                   (setq flag "false")))
-          ;; else...
+          ;;..else..
           ))
       (setq count (1+ count)))
     flag)
@@ -65,39 +67,3 @@
 (is-valid " ")             ;"Empty String"
 (is-valid "()[]{}[{(}])")  ;"false"
 ;;-----------------------------------------
-
-
-
-;;-------------------------------------------------------------------------------
-
-(defun eljson (json)
-  "Parse JSON and determine if it is of proper JSON format, eventually create
-lisp data structure analoguous to JSON, ELJSON"
-  ;; Need to impliment Hash Tables to make this function work effectively.
-  (let* (
-         (key)
-         (brackets '(("{" . "}")
-                     ("[" . "]")
-                     ("(" . ")")))
-
-         )
-    (cdr (assoc key brackets))
-
-    )
-  )
-;;-------------------------------------------------------------------------------
-;; Hash Tables
-
-;;-------------------------------------------------------------------------------
-;; A Simple Example of a Macro
-;;
-;; Suppose we would like to define a Lisp construct to increment a variable
-;; value, much like the '++' operator in C. We would like to write
-;; '(inc x)' and have the effect of '(setq x (1+ x))'. Here's a macro
-;; definition that does the job:
-
-(defmacro inc (var)
-  (list 'setq var (list '1+ var))
-  )
-;; when this is called with '(inc x)', the argument VAR is the symbol 'x', not
-;; the value of 'x', as it would be in a function.
