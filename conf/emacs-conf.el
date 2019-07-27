@@ -51,7 +51,7 @@
 ;;Paragraph Filling / Word Wrapping
 ;;https://www.emacswiki.org/emacs/FillParagraph
 ;;The default value for fill-column is 70
-(setq-default fill-column 121)
+(setq-default fill-column 81)
 
 ;; See: https://www.emacswiki.org/emacs/AutoFillMode
 ;;(add-hook 'text-mode-hook 'turn-on-auto fill)
