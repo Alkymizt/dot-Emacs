@@ -6,7 +6,7 @@
  ;; If there is more than one, they won't work right.
  '(ac-ispell-fuzzy-limit 4)
  '(ac-ispell-requires 4)
- '(package-selected-packages (quote (tide mood-line doom-themes aes))))
+ '(package-selected-packages (quote (tide mood-line doom-themes))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

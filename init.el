@@ -53,7 +53,3 @@
 ;;
 ;; Tools
 ;;
-
-;;this has to be loaded last for some reason, needs investigation...
-(require 'aes)
-(aes-enable-auto-decryption)
