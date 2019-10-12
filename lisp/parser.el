@@ -1,4 +1,4 @@
-;; parser.el
+;; parser.el  --- Basic String/JSON parser / generator -*- lexical-binding: t -*-
 ;;
 ;; Author: Erik P Almaraz 2019.07.01
 ;;
@@ -20,7 +20,7 @@
     )
   alist)
 
-(defun eljson (json)
+(defun ejson (json)
   "Parse JSON and determine if it is of proper JSON format, eventually create
 lisp data structure analoguous to JSON, ELJSON"
   ;; Need to impliment Hash Tables to make this function work effectively.
@@ -47,7 +47,7 @@ lisp data structure analoguous to JSON, ELJSON"
 
   (let* ((strung (split-string bstring "" t))
          (len (length strung))
-         (bra "[[{(]")
+         (bra "[[{(]");;example of regexp use
          (ket "[]})]")
          ;; Association List "alist"
          ;; records a mapping from keys to values.

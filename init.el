@@ -12,6 +12,7 @@
 
 ;; There has to be a better way of loading files, i.e. just give it a directory
 ;; and have it autoload all *.el files?...
+;; TO DO: Research how to more efficiently autoload files within a directory...
 
 (let* ( ;; Define local variables here...
        (emacs-conf   "~/.emacs.d/conf/emacs-conf.el")
@@ -24,11 +25,12 @@
        ;; Custom programs
        (utils        "~/.emacs.d/lisp/utils.el")
        (pwshell      "~/.emacs.d/lisp/pwshell.el")
-       ;; Docket: Delete speck, not functioning... unless I can get it functioning
-       ;;(speck        "~/.emacs.d/lisp/speck.el")
+
 
        ;; load last
+       (frame-cmds   "~/.emacs.d/lisp/frame-cmds.el")
        )
+
 
   ;; Load packages here...
   (load utils)
@@ -41,9 +43,10 @@
   (load spell-conf)
 
   (load pwshell)
-  ;;(load speck)
+
 
   ;; load last
+  (load frame-cmds)
   )
 
 

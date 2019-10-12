@@ -1,14 +1,58 @@
 ;; emacs-conf.el
 ;;
 
+;; View Setup:
+;;============
+
+;; Defaults
+;;==========
+
 ;; Disable Menue Modes:
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
-;; Set Initial Height and Width of frame:
+;; Start in full-screen mode and/or set custom window dimensions:
+;; TO-DO:
+
+
+
+;; Set frame default display:
 (add-to-list 'default-frame-alist '(height . 52))
 (add-to-list 'default-frame-alist '(width . 117))
+
+;; Open frame vertically by default:
+(setq split-height-threshold nil)
+(setq split-width-threshold 0)
+
+;; Hide splash-screen and startup-message
+(setq inhibit-splash-screen t)
+(setq inhibit-startup-message t)
+
+(defun toggle-bars-on ()
+  "Toggles bars on."
+  (interactive)
+  (menu-bar-mode)
+  (tool-bar-mode)
+  (scroll-bar-mode))
+
+(defun toggle-bars-off ()
+  "Toggles bars off."
+  (interactive)
+  (menu-bar-mode -1)
+  (tool-bar-mode -1)
+  (scroll-bar-mode -1))
+
+(defun toggle-full-screen-on ()
+  "Toggle on full screen mode."
+  (interactive)
+  (toggle-frame-fullscreen))
+
+(defun toggle-full-screen-off ()
+  "Toggle off full screen mode."
+  (interactive)
+  (toggle-frame-fullscreen -1))
+
 
 ;; Custom-File
 (setq custom-file "~/.emacs.d/customs.el")
@@ -86,3 +130,7 @@
 
 ;; Impliment custom themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+
+
+;; Split window vertically by default (rather than horizontally)
+;;(split-window-right)
