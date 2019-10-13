@@ -28,7 +28,7 @@
 
 
        ;; load last
-       (frame-cmds   "~/.emacs.d/lisp/frame-cmds.el")
+
        )
 
 
@@ -46,7 +46,7 @@
 
 
   ;; load last
-  (load frame-cmds)
+
   )
 
 

@@ -26,8 +26,8 @@
 (setq split-width-threshold 0)
 
 ;; Hide splash-screen and startup-message
-(setq inhibit-splash-screen t)
-(setq inhibit-startup-message t)
+;;(setq inhibit-splash-screen t)
+;;(setq inhibit-startup-message t)
 
 (defun toggle-bars-on ()
   "Toggles bars on."
@@ -134,3 +134,9 @@
 
 ;; Split window vertically by default (rather than horizontally)
 ;;(split-window-right)
+
+;; Key Bindings
+;;=============
+;; Magit Key Bindings
+(global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x M-g") 'magit-dispatch)
