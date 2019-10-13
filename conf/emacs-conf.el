@@ -18,7 +18,8 @@
 
 
 ;; Set frame default display:
-(add-to-list 'default-frame-alist '(height . 52))
+(set-frame-position (selected-frame) 0 0)
+(add-to-list 'default-frame-alist '(height . 55))
 (add-to-list 'default-frame-alist '(width . 117))
 
 ;; Open frame vertically by default:

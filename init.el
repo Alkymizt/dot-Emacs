@@ -10,46 +10,49 @@
 ;; Load Init Files
 ;;
 
-;; There has to be a better way of loading files, i.e. just give it a directory
-;; and have it autoload all *.el files?...
-;; TO DO: Research how to more efficiently autoload files within a directory...
+(let* (;; Define local variables here ...
 
-(let* ( ;; Define local variables here...
-       (emacs-conf   "~/.emacs.d/conf/emacs-conf.el")
-       (melpa-conf   "~/.emacs.d/conf/melpa-conf.el")
-       (theme-conf   "~/.emacs.d/conf/theme-conf.el")
-       (tidee-conf   "~/.emacs.d/conf/tidee-conf")
-       (erc-conf     "~/.emacs.d/conf/erc-conf")
-       (spell-conf   "~/.emacs.d/conf/spell-conf")
-
-       ;; Custom programs
-       (utils        "~/.emacs.d/lisp/utils.el")
-       (pwshell      "~/.emacs.d/lisp/pwshell.el")
-
-
-       ;; load last
+       (conf "~/.emacs.d/conf/")
+       (lisp "~/.emacs.d/lisp/")
 
        )
+  ;; Add Paths to 'load-path
+  (add-to-list 'load-path conf)
+  (add-to-list 'load-path lisp)
 
 
   ;; Load packages here...
-  (load utils)
 
-  (load emacs-conf)
-  (load melpa-conf)
-  (load theme-conf)
-  (load tidee-conf)
-  (load erc-conf)
-  (load spell-conf)
+  ;; Emacs Configuration
+  (load "emacs-conf")
+  (load "melpa-conf")
+  (load "theme-conf")
+  (load "tide-conf")
+  (load "erc-conf")
+  (load "spell-conf")
 
-  (load pwshell)
-
-
-  ;; load last
+  ;; Custom Lisp Libraries/Files
+  (load "utils")
+  (load "pwshell")
 
   )
 
+;;
+;; Scratch Functions
+;;
 
-;;
-;; Tools
-;;
+(defun set-frame-size-according-to-resolution ()
+    (interactive)
+    (if window-system
+    (progn
+      (if (> (x-display-pixel-width) 1500) ;; 1500 is the delimiter marging in px to consider the screen big
+             (set-frame-width (selected-frame) 237) ;; on the big screen make the fram 237 columns big
+             (set-frame-width (selected-frame) 177)) ;; on the small screen we use 177 columns
+      (setq my-height (/ (- (x-display-pixel-height) 150) ;; cut 150 px of the screen height and use the rest as height for the frame
+                               (frame-char-height)))
+      (set-frame-height (selected-frame) my-height)
+      (set-frame-position (selected-frame) 3 90) ;; position the frame 3 pixels left and 90 px down
+  )))
+
+  ;; (set-frame-size-according-to-resolution)
+  (global-set-key (kbd "C-x 9") 'set-frame-size-according-to-resolution)
