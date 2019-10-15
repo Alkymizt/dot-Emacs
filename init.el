@@ -20,10 +20,11 @@
   (add-to-list 'load-path conf)
   (add-to-list 'load-path lisp)
 
-
+  ;;
   ;; Load packages here...
+  ;;
 
-  ;; Emacs Configuration
+  ;; Emacs Configuration Files
   (load "emacs-conf")
   (load "melpa-conf")
   (load "theme-conf")
@@ -31,7 +32,8 @@
   (load "erc-conf")
   (load "spell-conf")
 
-  ;; Custom Lisp Libraries/Files
+  ;; Custom Lisp Files
+  (load "controls")
   (load "utils")
   (load "pwshell")
 

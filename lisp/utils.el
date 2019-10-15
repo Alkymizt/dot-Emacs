@@ -1,6 +1,7 @@
-;; utils.el -*- lexical-binding: t -*-
+;; utils.el  -*- lexical-binding: t -*-
 ;;
 
+;; source: Erik
 ;; TO-DO: (write-file) not sure if this should be a Function or a Macro
 ;; currently doesn't work as a Macro using defmacro, so using defun
 ;; TO-DO: expand utility and checks within, so that the programmer
