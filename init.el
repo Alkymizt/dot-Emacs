@@ -30,7 +30,6 @@
   (load "theme-conf")
   (load "tide-conf")
   (load "erc-conf")
-  (load "spell-conf")
 
   ;; Custom Lisp Files
   (load "controls")
