@@ -37,3 +37,14 @@
 ;;
 ;; Scratch Functions Here
 ;;
+
+;; TO DO:: INVESTIGATE
+;; Open frame vertically by default:
+;; This is not working to my liking, maybe I should write a function that does
+;; what I want
+;;(setq split-height-threshold nil)
+;;(setq split-width-threshold 0)
+
+;; Hide splash-screen and startup-message
+;;(setq inhibit-splash-screen t)
+;;(setq inhibit-startup-message t)

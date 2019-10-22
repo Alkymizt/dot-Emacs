@@ -24,14 +24,6 @@
 (add-to-list 'default-frame-alist '(height . 55))
 (add-to-list 'default-frame-alist '(width . 117))
 
-;; Open frame vertically by default:
-(setq split-height-threshold nil)
-(setq split-width-threshold 0)
-
-;; Hide splash-screen and startup-message
-;;(setq inhibit-splash-screen t)
-;;(setq inhibit-startup-message t)
-
 ;; Custom-File
 (setq custom-file "~/.emacs.d/customs.el")
 (if (file-exists-p custom-file)
@@ -104,7 +96,7 @@
 ;;(put 'dired-find-alternate-file 'disabled nil)
 
 ;; spell check
-(setq ispell-program-name "~/.emacs.d/bin/hunspell-1.3.2-3-w32-bin/bin/hunspell.exe")
+;; TO-DO:
 
 ;; Impliment custom themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
