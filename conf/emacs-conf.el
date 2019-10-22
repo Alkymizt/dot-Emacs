@@ -1,5 +1,7 @@
 ;; emacs-conf.el
-;;
+;; My concept here is this file pulls in from libraries, sets-up env vars for the most
+;; part and possible do a little programatic magic, but should not define/impliment
+;; functions (nothing too complex done here) keep is simple config set-up...
 
 ;; View Setup:
 ;;============
