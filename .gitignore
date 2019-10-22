@@ -1,9 +1,8 @@
-# Comments
+
 /auto-save-list/*
 /backup/*
 /diary/*
 /eshell/*
 
-# Magit stuff
 /server/*
 /transient/*
