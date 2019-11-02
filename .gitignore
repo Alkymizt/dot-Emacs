@@ -1,6 +1,6 @@
 /auto-save-list/*
 /backup/*
-/diary/private/*
+#/diary/private/*
 /eshell/*
 
 /server/*
