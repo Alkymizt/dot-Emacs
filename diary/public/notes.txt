@@ -9,3 +9,11 @@
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
+# TO DO
+
+Need to determine a specific method to determine specific gravity for the Herban
+Cowboy Shave Cream, current specification and measurements are not meeting
+specification. Previous specifications were defined by Angel and there are many
+unkown parameters as to how this range was specified. Product is a volumetric
+fill, which is problematic in changing the SG specification range as this will
+directly impact meeting volume fill claim.
