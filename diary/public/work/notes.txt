@@ -9,7 +9,7 @@
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-# TO DO: 2019-11-21
+# 2019-11-21
 
 Need to establish a specific method to determine specific gravity for the Herban
 Cowboy Shave Cream, current specification and measurements are not meeting
@@ -19,5 +19,13 @@ fill, which is problematic in changing the SG specification range as this will
 directly impact meeting volume fill claim.
 
 --------------------------------------------------------------------------------
+# 2019-11-26
+KWBEQCBC BAREMINERALS QUICK CHANGE BRUSH CLEANER
+
+Need to re-consider the pH specification, we should remove this specification
+altogether since it is not logical to define a pH range on a product that does
+not have the means to control pH and/or adjust it, we are at the sole discretion
+of the raw materials that we receive, which more or less fall within the
+specification of the COA that they are provided with.
 
 --------------------------------------------------------------------------------
