@@ -28,4 +28,38 @@ not have the means to control pH and/or adjust it, we are at the sole discretion
 of the raw materials that we receive, which more or less fall within the
 specification of the COA that they are provided with.
 
+The current reason why we cannot simply change the specifications for pH, is
+because Janet, says they have been the same for over a "decade" and she doesn't
+want to change them for that reason.  However, I believe that we need to revisit
+all of our legacy products and do a re-evaluation of the specifications to ensure
+that they meet our updated and improved SOPs and equipement, ultimately
+ensuring that our customer receive the best products possible.  If anything, with
+an improved specification set our clients will be receiving overall better
+products in my estimation.
 --------------------------------------------------------------------------------
+# 2019.12.04
+
+Production Fill Weight Documentation Change
+
+Scenario:
+=========
+Line Manager may ask to change fill weight range:
+
+Descripion:
+===========
+Never change range to expand lower end of fill range, product must
+meet claim weight.  This require evaluation to expand upper end of fill weight
+specification. However, if they are having difficulty filling minimum requirement
+of the fill weight specification, then the fill weight range needs to be
+re-evaluated, upper end of Specific Gravity needs to be carefully considered in
+this re-evaluation (esp. when dealing with a volumetric fill) as this will effect
+the ability to meet fill weight claims for volumetric fills.
+
+SOP (heresay):
+==============
+Provided the fill weight form, Lab Manager (supposedly, not sure if this should
+be a function of the Lab Manager position), a new expanded range may be provided
+signed and dated, which will then be given to Account Manager.  The Account
+Manager of the said product should be notified before the range is adjusted.  The
+required fill weight documentation, attached to the Project in Formulator must
+then be updated accordingly to reflect any changes.
