@@ -63,3 +63,17 @@ signed and dated, which will then be given to Account Manager.  The Account
 Manager of the said product should be notified before the range is adjusted.  The
 required fill weight documentation, attached to the Project in Formulator must
 then be updated accordingly to reflect any changes.
+
+--------------------------------------------------------------------------------
+# 2019.12.05
+# Production Scheduling Meetings
+
+Purpose of these meetings for R&D Lab Manager is to provide formulation
+information not immediately known to scheduler/Production Manager/Compounding
+Manager on needed equipment - essentially to double check that batches are
+scheduled in proper compounding equipment, i.e. kettles/tanks with adequate
+mixing equipment, also need to be privy on effervescent equipment as well.
+Possibly set up time to meet with KJ and/or someone who can brush me up on this
+information, go over and review problematic formulations for production etc.
+
+--------------------------------------------------------------------------------
