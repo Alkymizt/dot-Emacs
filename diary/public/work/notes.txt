@@ -5,8 +5,26 @@
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
+# 2019.12.11
+all calibio batches:
 
+This is for QC, this needs to be transmitted before the batch is being made. This
+will be to ensure that the batch sheet was updated from previous batches.
+
+Check for previous work orders for any updates or changes.
+
+And make a sign off for a QC Technitian and date before the batch can be made.
 --------------------------------------------------------------------------------
+# 2019.12.10
+
+Sucragel - If heated for too long it will loose it H2O and eventually not be able
+to form a stable gel, the oils will begin to seperate out.  This is most likely
+due to the imbalance of H20 required for the sucragel to form a gel.  To fix,
+once can take a sample of the seperated batch and add aliquotes of H2O until the
+gel is stabilized.
+
+Sucragel technology is based off of D Phase Emulsification, see URL:
+https://www.jstage.jst.go.jp/article/jos1956/40/11/40_11_988/_article
 
 --------------------------------------------------------------------------------
 # 2019-11-21
