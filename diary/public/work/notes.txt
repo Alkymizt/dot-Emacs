@@ -3,6 +3,59 @@
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
+# 2019.12.12
+
+CBD Handling
+
+As was communicated from Irvaz: Jeff, Chris and Kim had a meeting discussing the
+handling of CBD and this was a responsibility that was to be handled by Chris as
+he takes on the role of QC manager. Batch sheets are NOT to be changed in the
+system, and how the modification of CBD concentrations per batch based on lot is
+an issue to be discussed and handled within the QC department. There seems
+to be some push back here and what was also mentioned was the concern of
+tracking, however, this can be done on a per batch sheet basis. I was instructed
+by Irvaz to NOT adjust a batch sheet, or change the formula in the system. Also,
+the safe and storage of the CBD is now in the office of the lab, and it was
+indicated that I was to be responsible for the CBD, both lab samples and
+production, however this is NOT within the scope of my responsibilities and I
+should NOT be held accountable for production's CBD safekeeping, again this is
+something to be determined by Chris and the QC department. I will have to hold a
+strict line here as I am currently getting push back, not in a direct manner, but
+rather from a tertiary sense from production workers - seems misinformation is
+being communicated from the QC department as this has not been discussed at all
+from the R&D department.
+
+Quality and Production issues of existing products.
+
+In my observation, there is already way too much handling of quality production
+issues that the lab is being held responsible for dealing with and it is strongly
+interfering with our main objective which is to provide quality samples in a
+timely manner to prospective, new, and existing clients. I understand that the
+lab is responsible for overseeing scale up and pilot batches, which is what we
+are currently doing, however, QC department is being direlect in its duties to
+handle issues of products that have long been out of this scope - this was being
+handled.
+
+Scale-Up & QC functions:
+
+Scale-Up is currently consumed with the following tasks:
+
+  1. Color Standard Solutions: This is a function of ensuring quality - QC
+  2. Citric Acid Standards: This is a function of ensuring quality - QC
+  3. Any existing product Standard: A function of ensuring quality - QC
+  4. New product specification Standard setting: Scale-up
+  5. Pilot batch specification Standard setting: Scale-up
+  6. Troubleshooting off-specs of existing products: a function of ensuring
+     quality - QC, i.e. BAREMINERALS QUICK CHANGE BRUSH CLEANER (KWBEQCBC)
+     this is a recurring issue that should be handled by QC, they have the batch
+     record of previous changes.
+  7. Troubleshooting off-specs of recent products: QC & R&D, R&D will aid in
+     developing a solution, however, QC should record and log solution and then
+     handle the situation in the future.  If problem continues to exist, then QC
+     shall bring batch record of 3 or more occurences of this issue (an average
+     requires at least 3 occrences) and then R&D/Scale-up shall adjust the batch
+     sheet accordingly.
+
 
 --------------------------------------------------------------------------------
 # 2019.12.11
