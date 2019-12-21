@@ -1,6 +1,43 @@
 --------------------------------------------------------------------------------
 # NOTES:
 --------------------------------------------------------------------------------
+#
+--------------------------------------------------------------------------------
+#
+--------------------------------------------------------------------------------
+#
+--------------------------------------------------------------------------------
+
+# 2019.12.20
+
+KSCNJFC - BATCH19350-08 CANNUKA JELLY FACE CLEANSER
+
+EXPERIMENTAL CORRECTION #1 (2019.12.19)
+PROCEDURE: 
+We used 50 lbs from the product currently in the tank, and upon removal we
+observed that the product is indeed unstable and has begun the process to
+seperate, i.e. oils are not being held within the gel structure. We heated the
+product up to 40 - 45 °C, in K8 and began propeller mixing. We mixed the product
+at this temperature for 30 minutes, and due to the impartation of friction the
+final temperature of the product rose to 52 °C. We then applied cooling for the
+last 10 minutes of mixing, however, the temperature remained at 52 °C. The 
+result of this experiment seemed to indicate that mixing did allow the oils to
+be re-incorporated back into the gel and we achieved a lighter look that is 
+representative of the approved sample and what was made successfully in the
+pilot.
+
+EXPERIMENTAL CORRECTION #2
+Plan - rework product still currently in tank (BATCH#), same procedure as
+mentioned in EXP. 1, then we will perform an 80/20 mix of that batch with
+the broken batch (BATCH#) with mixing.
+
+EXPERIMENTAL CORRECTION #3
+Plan is to create a base using Barsolve NS-100 D-Phase Emulsion technology,
+what we used in YL Foot Scrub (PDR # 10410) and generate a stable base and
+incorporate the broken batch in hopes of salvaging the material.
+
+
+
 
 --------------------------------------------------------------------------------
 # 2019.12.12
