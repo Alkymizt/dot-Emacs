@@ -3,9 +3,16 @@
 --------------------------------------------------------------------------------
 #
 --------------------------------------------------------------------------------
-#
---------------------------------------------------------------------------------
-# 2019.12.24 Christmas Eve
+# 2019.12.26 Thurs
+
+Stability protocols
+Need to get with Chris to establish SOPs for these and to train Julina and
+establish these protocols in practice.
+
+1 Preliminary (aka Accelerated)
+2 Basic (organoleptic)
+3 Extended (pH, weight, viscosity, etc)
+4 OTC
 
 --------------------------------------------------------------------------------
 
