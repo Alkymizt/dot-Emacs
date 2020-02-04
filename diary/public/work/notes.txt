@@ -1,7 +1,19 @@
 --------------------------------------------------------------------------------
 # NOTES:
+
 --------------------------------------------------------------------------------
 #
+
+
+--------------------------------------------------------------------------------
+# 2019.12.27
+
+Direction from Irvaz:
+When QC comes in with an issue with approval/specifications of products - they
+need to have first talked with Chris, their manager, in regards to the issue
+and whether it is indeed an issue that needs to be addressed to R&D. Currently,
+they have been bringing all concerns to R&D, even though it is not in the scope
+of a product correction.
 --------------------------------------------------------------------------------
 # 2019.12.26 Thurs
 

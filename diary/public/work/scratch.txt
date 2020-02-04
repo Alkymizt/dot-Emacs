@@ -1,9 +1,35 @@
 --------------------------------------------------------------------------------
 SCRATCH NOTES:
 --------------------------------------------------------------------------------
+# 2019.12.27
+Fill Weight Guidelines for Tubes.
 
---------------------------------------------------------------------------------
+For Larger Tubes:
+Breathing room = Diameter + 1 cm from top of Tube
+You want to make sure your max fill does not go above this line or is at least
+1 cm below this line. This establishes feasability of the tube.
 
+For Smaller Tubes: TBD
+
+Example:
+11936-C Hemp Foaming Face Wash
+
+Claim: 150 ml
+First Iteration Analysis:
+1.021 * 150 = 153.15 (Claim 154 g)
+
+Min Fill Weight: 156 g ==> y1 * 154 = 157 ==> y1 = 156/154 ==> y1 = 1.0129
+Max Fill Weight: 160 g ==> y2 * 160 = 160 ==> y2 =  160/154 ==> 72 = 1.0389
+This very tight fill leads to an extremely (not measurable within our capacity) 
+SG range, if we are to have a volumetric fill and have a product that has a 
+measurable/passable SG range simultaneously.
+
+====
+
+# Manager Formulator Login
+  User Name: Manager
+  Name: Manager
+  PC: Acetaldehyde
 --------------------------------------------------------------------------------
 Ideas:
 ======
@@ -23,13 +49,17 @@ Salts:
 --------------------------------------------------------------------------------
 Conversions:
 ============
-  (source: https://www.convertunits.com/)
+  (source: Wolfram|Alpha)
   1 fl oz <=    29.57353 g
   1 gal   <=  3785.41180 g
 
   (source: Bing)
   1 oz    <=    28.34952 g
 --------------------------------------------------------------------------------
+Typography:
+===========
+Interpunct or Space Dot
+ALT+250
 
 --------------------------------------------------------------------------------
 
