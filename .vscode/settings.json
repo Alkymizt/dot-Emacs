@@ -1,10 +1,11 @@
 {
 	//  User settings.json
+	//  C: > Users > Erik > AppData > Roaming > Code > User > settings.json
 	//"terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
 	//"window.restoreWindows": "none",
 
 	//  Workspace settings.json
-
+	
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
     "editor.tabSize": 4,
