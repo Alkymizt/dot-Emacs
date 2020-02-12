@@ -1,6 +1,21 @@
 --------------------------------------------------------------------------------
 SCRATCH NOTES:
 --------------------------------------------------------------------------------
+#2020-02-10
+
+Need SOP for the following Stability Protocols along with associated forms:
+1. Initial/Observational Stability Protocol
+	> Duration: 2 weeks, no report required
+2. Basic
+	> Duration: 3 months, report, observational analysis ONLY
+3. Extended
+	> Duration: same as Basic plus, analytical analysis (pH, Viscosity, Weight Loss, SG)
+4. OTC
+	> Duration: 2 years, same as extended
+5. Customer Directed
+	> Use protocol for OTC and update per customer requirements and update per agreement.
+
+--------------------------------------------------------------------------------
 # 2019.12.27
 Fill Weight Guidelines for Tubes.
 
