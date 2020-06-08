@@ -92,7 +92,7 @@
 (eval-after-load "shell"
   '(define-key shell-mode-map "\M-#" 'shells-dynamic-spell))
 
-(autoload 'pwsh "pwsh" "Run PowerShell as a shell within emacs." t)
+(autoload 'powershell "powershell" "Run PowerShell as a shell within emacs." t)
 ;;(put 'dired-find-alternate-file 'disabled nil)
 
 ;; spell check

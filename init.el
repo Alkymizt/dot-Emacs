@@ -30,7 +30,7 @@
   ;; Custom Lisp Files
   (load "controls")
   (load "utils")
-  (load "pwshell")
+  (load "powershell")
 
   )
 
