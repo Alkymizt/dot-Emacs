@@ -25,7 +25,7 @@
 (add-to-list 'default-frame-alist '(width . 117))
 
 ;; Custom-File
-(setq custom-file "~/.emacs.d/customs.el")
+(setq custom-file "~/.emacs.d/conf/customs.el")
 (if (file-exists-p custom-file)
     (load custom-file)
   (write-file custom-file ";; customs.el"))

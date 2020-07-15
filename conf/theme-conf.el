@@ -1,10 +1,18 @@
 ;; theme-conf.el
 ;;
 
+;; ALL THE ICONS THEME PACKAGE
+;; https://github.com/domtronn/all-the-icons.el
+;;(require 'all-the-icons)
+;; or
+;;(use-package all-the-icons)
+
 ;; ZERODARK THEME CONFIGURATION
 ;;
 (load-theme 'zerodark t)
 ;; Optionally setup the modeline
+;; This modeline implementation greatly reduces the speed of Emacs
+;; not exactly sure why, maybe I could investigate this...
 ;;(zerodark-setup-modeline-format)
 
 
@@ -24,6 +32,7 @@
 
 ;; Enable custom neotree theme
 ;; (doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
+
 
 ;; mood-line - A minimal modeline inspired by doom-modeline
 (mood-line-mode)
