@@ -21,8 +21,8 @@
 
 ;; Set frame default display:
 (set-frame-position (selected-frame) 0 0)
-(add-to-list 'default-frame-alist '(height . 55))
-(add-to-list 'default-frame-alist '(width . 117))
+(add-to-list 'default-frame-alist '(height . 42))
+(add-to-list 'default-frame-alist '(width . 90))
 
 ;; Custom-File
 (setq custom-file "~/.emacs.d/conf/customs.el")
@@ -110,3 +110,8 @@
 ;; Magit Key Bindings
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch)
+
+;; Org Mode Key Bindings
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
