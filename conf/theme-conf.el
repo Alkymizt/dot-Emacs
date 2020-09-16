@@ -7,32 +7,21 @@
 ;; or
 ;;(use-package all-the-icons)
 
-;; ZERODARK THEME CONFIGURATION
 ;;
-(load-theme 'zerodark t)
-;; Optionally setup the modeline
-;; This modeline implementation greatly reduces the speed of Emacs
-;; not exactly sure why, maybe I could investigate this...
-;;(zerodark-setup-modeline-format)
-
-
-;; DOOM THEME CONFIGURATION
-;;(require 'doom-themes)
-
-;; Global settings (defaults)
-;;(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-;;      doom-themes-enable-italic t) ; if nil, italics is universally disabled
-
-;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each
-;; theme may have their own settings.
-;;(load-theme 'doom-one t)
-
-;; Enable flashing mode-line on errors
-;;(doom-themes-visual-bell-config)
-
-;; Enable custom neotree theme
-;; (doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
-
+;; mood-one-theme
+;;
+(load-theme 'mood-one t)
+;; custom Neotree configuration
+(eval-after-load 'neotree #'mood-one-theme-neotree-configuration-enable)
+;; custom Fringe Bitmaps
+;;to replace default line continuation/line wrap fringe bitmaps:
+(mood-one-theme-arrow-fringe-bmp-enable)
+;;to enable custom fringe bitmaps for diff-hl
+(setq diff-hl-fringe-bmp-function #'mood-one-theme-flycheck-fringe-bmp-enable)
+;;to enable custom fringe bitmaps for flycheck:
+(eval-after-load 'flycheck #'mood-one-theme-flycheck-fringe-bmp-enable)
+;;to enable custom fringe bitmaps for flymake:
+(eval-after-load 'flymake #'mood-one-theme-flymake-fringe-bmp-enable)
 
 ;; mood-line - A minimal modeline inspired by doom-modeline
 (mood-line-mode)
