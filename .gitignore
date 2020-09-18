@@ -1,6 +1,10 @@
 /auto-save-list/*
-/backup/*
 /eshell/*
-/org/work/*
 /server/*
 /transient/*
+/tutorial/*
+
+/etc/org/work/
+/etc/emacs-docs/*
+/etc/backup/*
+/etc/emacs-docs/*

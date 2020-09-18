@@ -1,4 +1,4 @@
-;; init.el
+;; init.el  -*- lexical-binding: t -*-
 ;; Created By: Erik P Almaraz 2019.05.10
 ;;
 
@@ -8,8 +8,8 @@
 
 (let* (;; Define local variables here ...
 
-       (conf "~/.emacs.d/conf/")
-       (lisp "~/.emacs.d/lisp/")
+       (conf "~/.emacs.d/etc/conf/")
+       (lisp "~/.emacs.d/etc/lisp/")
 
        )
   ;; Add Paths to 'load-path
@@ -22,8 +22,10 @@
 
   ;; Emacs Configuration Files
   (load "emacs-conf")
-  (load "melpa-conf")
   (load "theme-conf")
+  (load "org-conf")
+  (load "magit-conf")
+  (load "melpa-conf")
   (load "tide-conf")
   (load "erc-conf")
 
@@ -34,18 +36,4 @@
 
   )
 
-;;
-;; Scratch Functions Here
-;;
-
-;; TO DO:: INVESTIGATE
-
-;; Open frame vertically by default:
-;; This is not working to my liking, maybe I should write a function that does
-;; what I want
-;;(setq split-height-threshold nil)
-;;(setq split-width-threshold 0)
-
-;; Hide splash-screen and startup-message
-;;(setq inhibit-splash-screen t)
-;;(setq inhibit-startup-message t)
+;; EOL

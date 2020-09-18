@@ -1,0 +1,6 @@
+#+TITLE: Bible Notes
+#+AUTHOR: Erik Almaraz
+#+EMAIL: erik@almarazlabs.com
+#+TODO: TODO FEEDBACK VERIFY | DONE CANCELED
+
+* TODO 
