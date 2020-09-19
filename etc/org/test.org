@@ -1,0 +1,22 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+title: test
+#+date: <2020-09-18 Fri>
+#+author:
+#+email: Erik@RYZEN
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.1 (Org mode 9.4)
+
+* Introduction
+
+\paragraph{}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lorem nisi, tincidunt tempus sem nec,
+elementum feugiat ipsum. Nulla in diam libero. Nunc tristique ex a nibh egestas sollicitudin.
+
+\paragraph{}
+Mauris efficitur vitae ex id egestas. Vestibulum ligula felis, pulvinar a poseure id, luctus vitae leo.
+Sed ac imperdiet orci, non elementum leo. Nullam molestie congue placerat. Phasellus tempor et libero
+maximus commodo.

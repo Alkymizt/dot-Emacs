@@ -1,7 +1,7 @@
 #+TITLE: Testimony
 #+AUTHOR: Erik Almaraz
 #+EMAIL: erik@almarazlabs.com
-#+TODO: TODO FEEDBACK VERIFY | DONE CANCELED
+
 
 * Title: Erik where are you? (30 min version)
 
