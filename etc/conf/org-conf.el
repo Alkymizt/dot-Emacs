@@ -3,6 +3,8 @@
 ;;
 ;; Notes: Many desktops intercept M-TAB to switch windows. Use C-M-i or ESC TAB instead.
 
+;; can also customize using M-x customize-groups > org
+(defvar org-export-backends '(ascii beamer html icalendar latex odt))
 
 ;; Org Mode Key Bindings
 (global-set-key (kbd "C-c l") 'org-store-link)
@@ -23,4 +25,4 @@
 ;; '#+LATEX_COMPILER' keyword in the Org file. See the docstring for the `org-latex-default-packages-alist'
 ;; for loading packages with certain compilers. Also see `org-latex-bibtex-compiler' to set the
 ;; bibliography compiler.
-(require 'ox-latex)
+
