@@ -70,7 +70,7 @@
 (setq-default fill-column 108)
 
 ;; See: https://www.emacswiki.org/emacs/AutoFillMode
-;;(add-hook 'text-mode-hook 'turn-on-auto-fill)
+(add-hook 'text-mode-hook 'turn-on-auto-fill)
 ;; Let's make EMACS ask us whethere to use Auto Fill Mode when opening
 ;; a text file:
 ;; (add-hook 'text-mode-hook

@@ -7,19 +7,23 @@
 ;; TO-DO: expand utility and checks within, so that the programmer
 ;; doesn't have to do this every time this is called.
 
-(defun write-file (file header)
-  "Create a new file named FILENAME with HEADER (string)"
-  (let* (
-         (start header)
-         (end nil)
-         (filename file)
-         (optional t)
-         )
+;; This function was overwriting a default emacs function used in org-export-to-file
+;; need to rename to something else... Man this wasted a whole day of searching!
+;; figured out Fri 2020.09.18
 
-    ;; body
-    (write-region start end filename optional)
-    )
-  )
+;; (defun write-file (file header)
+;;   "Create a new file named FILENAME with HEADER (string)"
+;;   (let* (
+;;          (start header)
+;;          (end nil)
+;;          (filename file)
+;;          (optional t)
+;;          )
+
+;;     ;; body
+;;     (write-region start end filename optional)
+;;     )
+;;   )
 
 
 ;; source: http://steve.yegge.googlepages.com/my-dot-emacs-file
