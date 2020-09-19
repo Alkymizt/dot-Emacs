@@ -4,8 +4,9 @@
 /transient/*
 /tutorial/*
 
-/etc/org/work/*
-/etc/org/notes/*
+/org/work/*
+/org/notes/*
+
 /etc/emacs-docs/*
 /etc/backup/*
 /etc/emacs-docs/*
