@@ -26,4 +26,4 @@
 ;; mood-line - A minimal modeline inspired by doom-modeline
 (mood-line-mode)
 
-(setq org-beautify-theme-use-box-hack nil)
+;;(load-theme 'org-beautify t)

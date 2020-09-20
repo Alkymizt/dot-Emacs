@@ -11,19 +11,19 @@
 ;; need to rename to something else... Man this wasted a whole day of searching!
 ;; figured out Fri 2020.09.18
 
-;; (defun write-file (file header)
-;;   "Create a new file named FILENAME with HEADER (string)"
-;;   (let* (
-;;          (start header)
-;;          (end nil)
-;;          (filename file)
-;;          (optional t)
-;;          )
+(defun write-too-file (file header)
+  "Create a new file named FILENAME with HEADER (string)"
+  (let* (
+         (start header)
+         (end nil)
+         (filename file)
+         (optional t)
+         )
 
-;;     ;; body
-;;     (write-region start end filename optional)
-;;     )
-;;   )
+    ;; body
+    (write-region start end filename optional)
+    )
+  )
 
 
 ;; source: http://steve.yegge.googlepages.com/my-dot-emacs-file

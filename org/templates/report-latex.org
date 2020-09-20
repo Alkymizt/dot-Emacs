@@ -1,0 +1,20 @@
+#+LATEX_CLASS: article
+#+LATEX_COMPILER: pdflatex
+#+LATEX_HEADER: \input{~/.emacs/org/LaTeX/reportHeader.tex}
+#+LATEX_CLASS_OPTIONS: [a4paper]
+
+#+TITLE:
+#+AUTHOR:
+#+EMAILE:
+#+DATE: \today
+
+#+STARTUP: showeverything inlineimages
+
+
+* Introduction
+
+* Body
+
+* Conclusion
+
+* References
