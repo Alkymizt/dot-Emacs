@@ -7,9 +7,9 @@ For some reason this is failing...
 #+LATEX_HEADER: \input{~/.emacs/org/LaTeX/reportHeader.tex}
 #+END_COMMENT
 
-#+TITLE:
-#+AUTHOR:
-#+EMAIL:
+#+TITLE: How to Pray
+#+AUTHOR: Erik P. Almaraz
+#+EMAIL: erik@almarazlabs.com
 #+DATE: \today
 
 #+STARTUP: showeverything inlineimages

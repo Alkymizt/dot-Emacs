@@ -4,11 +4,15 @@
 #+LATEX_CLASS_OPTIONS: [a4paper]
 
 #+TITLE: Nutrition 
-#+AUTHOR:
-#+EMAILE:
-#+DATE: \today
+#+AUTHOR: Erik P. Almaraz
+#+EMAILE: erik@almarazlabs.com
+#+DATE: Sun 2020.09.20
 
 #+STARTUP: showeverything inlineimages
 
 
-* Workout
+* Workout Plan
+
+* Diet Plan
+
+* Research

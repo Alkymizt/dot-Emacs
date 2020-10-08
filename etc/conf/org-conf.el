@@ -24,9 +24,9 @@
                            (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
 
 ;;The org-bullets package replaces all headline markers with different Unicode bullets:
-;; (use-package org-bullets
-;;              :config
-;;              (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+(use-package org-bullets
+             :config
+             (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
 
 ;; ;; Font set up:
 ;; (let* ((variable-tuple

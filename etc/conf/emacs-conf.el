@@ -1,4 +1,5 @@
 ;; emacs-conf.el  -*- lexical-binding: t -*-
+;; ...
 ;; My concept here is this file pulls in from libraries, sets-up env vars for the most
 ;; part and possible do a little programatic magic, but should not define/impliment
 ;; functions (nothing too complex done here) keep is simple config set-up...
@@ -71,18 +72,11 @@
 
 ;; See: https://www.emacswiki.org/emacs/AutoFillMode
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
-;; Let's make EMACS ask us whethere to use Auto Fill Mode when opening
-;; a text file:
-;; (add-hook 'text-mode-hook
-;;           (lambda ()
-;;             (when (y-or-n-p "Auto Fill Mode? ")
-;;               (turn-on-auto-fill))))
 
 ;; https://www.emacswiki.org/emacs/RefillMode
 
 ;; Globally Change the Default Font
 ;; see: https://www.emacswiki.org/emacs/SetFonts
-;;
 ;;(add-to-list 'default-frame-alist '(font . FONT))
 ;;(set-face-attribute 'default t :font FONT)
 
@@ -99,6 +93,8 @@
 ;;(put 'dired-find-alternate-file 'disabled nil)
 
 
+;; spell check
+;; TO-DO:
 
 
 ;; General Key Bindings
@@ -106,11 +102,9 @@
 ;;
 
 
+;;
 ;; TODO items
 ;;
-
-;; spell check
-;; TO-DO:
 
 ;; Impliment custom themes
 ;;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")

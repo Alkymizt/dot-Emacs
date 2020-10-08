@@ -1,0 +1,141 @@
+#+LATEX_CLASS: article
+#+LATEX_COMPILER: pdflatex
+#+LATEX_CLASS_OPTIONS: [a4paper]
+
+#+TITLE: Matt Gospel Notes
+#+AUTHOR: Erik P. Almaraz
+#+EMAIL: erik@almarazlabs.com
+#+DATE: Sun 2020.09.20
+
+#+STARTUP: showeverything inlineimages
+
+
+* Matt 3
+  Kingdom of Heaven and the Kingdome of God - are but two phrases for the same
+  thing. They mean, not barely a future happy state, in heaven, but a state to be
+  enjoyed on earth: the proper disposition of the glory of heaven, rather than the
+  possession of it.
+
+  John the Baptist - Like Elijah, in whose spirit and power he came...
+  John had his raiment of camels' hair - coarse and rought, suiting his character
+  and doctrine... Just as John the baptist paved the way for Jesus, this type of
+  spirit is necessary to to preceed the spirit of Jesus (Joseph, Jeremiah?)
+
+  What are the various spirits of the prophets
+  1. Joseph spirit - gentle, soft, and loving (maybe passive) yet with zeal
+  2. Elijah - course, rough sharp, firey...
+
+
+* Matt 4
+** Jesus' Temptation: Matthew 4:1-10
+   When Jesus was tempted, Matthew 4:4, "But he answered and said, It is written,
+   Man shall not live by bread alone, but by every word that proceedeth out of the
+   mouth of God."
+
+   Matthew 4:6,7 "And saith unto him, If thou be the Son of God, cast thyself down:
+   for it is written, He shall give his angels charge concerning thee: and in their
+   hands they shall bear thee up, lest at any time thou dash thy foot against a
+   stone. Jesus said unto him, It is written again, Thou Shalt not tempt the Lord
+   thy God.
+   > Psalm 91:11,12 - For he shall give his angels charge over thee, to keep thee in
+   all they ways. They shall bear thee up in their hands, lest thou day they foot
+   against a stone.
+   Matthew 4:8-11
+   We see that the devil is well versed in the Word of God. The last temptation,
+   Satan reveals himself by offering the kingdoms of the world and all the glory of
+   them to Jesus, except that he must fall down and worship him (revealing his true
+   identity as Satan). "Then saith Jesus unto him, Get thee hence, Satan: for it is
+   written, Thou shalt worship the Lord thy God, and him only shalt thou serve. Then
+   the devil leaveth him, and, behold, angels came and ministered unto him.
+
+** Jesus calls his disciples Matthew 4:18-22
+   Jesus calls Simon (called Peter) and his brother Andrew as well as James the son
+   of Zebedee and John his brother.
+
+   Matt 4:19 - "And he saith unto them, Follow me, and I will make you fishers of
+   men."
+
+   Matt 4:23 - The Gospel of the kingdom: The Gospel, that is, the joyous message,
+   is the proper name of our religion - as will be amply verified in all who
+   earnestly and perseveringly embrace it.
+
+
+* Matt 5
+** Matt 5:3 (KJV) Poor in spirit
+   "Blessed are the poor in spirit, for theirs is the kingdom of heaven."
+*** WES Commentary
+    - Happy are the poor - In the following discourse there is, A sweet invitation to true
+      holiness and happiness, Matt 5:3-12.
+
+    - A persuasive to impart it to others, Matt 5:13-16
+    - A description of true Christian holiness, ver. 17; chap.vii,12,Matt 5:17; Matt 7:12 (in which it is
+      easy to observe, the latter part exactly answers the former.)
+    - The conclusion: giving a sure mark of the true way, warning against false prophets, exhorting to
+      follow after holiness. The poor in spirit - They who are unfeignedly penitent, they who are truly
+      convinced of sin; who see and feel the state they are in by nature, being deeply sensible of their
+      sinfulness, guiltiness, helplessness. For theirs is the kingdom of heaven - the present inward
+      kingdom: righteousness, and peace, and joy in the Holy Ghost, as well as the eternal kingdom, if
+      they endure to the end. Luke 6:20
+
+*** Salt and Light Matt 5:13-16 (ESV)
+    A persuasive to impart it to others
+    "You are the salt of the earth, but if salt has lost its taste, how shall its saltiness be restored?
+    It is no longer good for anything except to be thrown out and trampled under people's feet. You are
+    the light of the world. A city set on a hill cannot be hidden. Nor do people light a lamp and put it
+    under a basket, but on a stand, and it gives light to all in the house. In the same way, let your
+    light shine before others, so that they may see your good works and give glory to your Father who is
+    in heaven.
+
+** Matt 5:5
+   Blessed are the meek: for they shall inherit the earth.
+
+** Matt 5:8
+   Blessed are the pure in heart: for they shall see God.
+
+** Matt 5:9
+   Blessed are the peacemakers: for they shall be called the children of God.
+
+
+* Matt 6
+** Matt 6:6-8 (KJV)
+   But thou, when thou prayest, enter into thy closet, and when thou has shut thy door, pray to thy Father
+   which is in secret; and thy Father which seeth in secret shall reward thee openly. But when ye pray, use
+   not vain repetitions, as the heathen do; for they think that they shall be heard for their much
+   speaking. But not ye therefore like unto them: for your Father knoweth what things ye have need of,
+   before ye ask him.
+
+** The Lord's Prayer Matt 6:9-13 (KJV)
+   After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name. Thy kingdom
+   come. Thy will be done in earth, as it is in heaven. Give us this day our daily bread. And forgive us our
+   debts, as we forgive our debtors. And lead us not into temptation, but deliver us from evil: For thine is
+   the kingdom, and the power, and the glory, for ever. Amen.
+
+** Matt 6:31-34 (KJV)
+   "Therefore take no thought, saying, What shall we eat? or, What shall we drink?
+   or, Wherewithal shall we be clothed? (For after all these things do the Gentiles
+   seek:) for your heavenly Father knoweth that ye have need of all these
+   things. But seek ye first the kingdom of God, and his righteousness; and all
+   these things shall be added unto you. Take therefore no thought for the morrow:
+   for the morrow shall take thought for the things of itself. Sufficient unto the
+   day is the evil thereof."
+
+** Matt 6:31-34 (ESV)
+   "Therefore do not be anxious, saying, 'What shall we eat?' or 'What shall we drink?'
+   or 'What shall we wear?' For the Gentiles seek after all these things, and your
+   heavenly father knows that you need them all. But seek first the kingdom of God and
+   his righteousness, and all these things will be added to you." 
+
+
+* Matt 7 Judgin Others
+** Matt 7:1-6 (ESV)
+   "Judge not, that you be not judged. For with the judgement you pronounce you will be judged,
+   and with the measure you use it will be measured to you. Why do you see the speck that is in your
+   brother's eye, but do not notice the log that is in your own eye? Or how can you say to your
+   brother, 'Let me take speck out of your eye', when there is the log in yo9ur own eye? You
+   hypocrite, first take the log out of your own eye, and then you will see clearly to take the 
+   speck out of your brother's eye."
+   "Do not give dogs what is holy, and do not throw your pearls before pigs, lest they trample
+   them underfood and turn to attack you."
+   
+
+* Matt 8
