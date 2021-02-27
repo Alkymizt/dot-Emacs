@@ -47,8 +47,8 @@
 (setq auto-save-file-name-transforms '((".*" "~/.emacs.d/etc/backup/auto/" t)))
 
 ;; Set-font
-(add-to-list 'default-frame-alist
-             '(font . "consolas-10.5"))
+;; (add-to-list 'default-frame-alist
+;;              '(font . "consolas-10.5"))
 
 ;; Display Line numbers
 (when (version<= "26.0.50" emacs-version)

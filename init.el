@@ -3,29 +3,41 @@
 ;; Emacs Initialization File: Where all the magic begins!
 ;;
 
+;; TO DO - determine whether this function is worth initiating and if the source below is the most optimal
+;;         and correct means of doing so, specifically within MacOS and if placement here is most appropriate.
+;;       - Set up the environment to build/compile emacs from source...
+;;
 ;; Avoid garbage collection during startup, since the GC consumes quite a bit of time, easily doubling
 ;; (need to verify this) the start-up time. The trick is to increase the memory threshold in order to
 ;; prevent it from running during startup.
-(setq gc-cons-threshold most-positive-fixnum ; 2^16 bytes
-      gc-cons-percentage 0.6)
+;; (setq gc-cons-threshold most-positive-fixnum ; 2^16 bytes
+;;       gc-cons-percentage 0.6)
 ;; Every file opened and loaded by Emacs will run through this list to check for a proper handler for
 ;; the file, but during startup, it won't need any of them.
-(defvar file-name-handler-alist-original file-name-handler-alist)
-(setq file-name-handler-alist nil)
+;; (defvar file-name-handler-alist-original file-name-handler-alist)
+;; (setq file-name-handler-alist nil)
 
 ;; After Emacs startup has been completed, set `gc-cons-threshold' to
 ;; 16 MB and reset `gc-cons-percentage' to its original value.
 ;; Also reset `file-name-handler-alist'
-(add-hook 'emacs-startup-hook
-          '(lambda ()
-             (setq gc-cons-threshold (* 16 1024 1024)
-                   gc-cons-percentage 0.1
-                   file-name-handler-alist file-name-handler-alist-original)
-             (makunbound 'file-name-handler-alist-original)))
+;; (add-hook 'emacs-startup-hook
+;;           '(lambda ()
+;;              (setq gc-cons-threshold (* 16 1024 1024)
+;;                    gc-cons-percentage 0.1
+;;                    file-name-handler-alist file-name-handler-alist-original)
+;;              (makunbound 'file-name-handler-alist-original)))
 
 ;;
 ;; Load Init Files/Libraries
 ;;
+
+;; https://stackoverflow.com/questions/3364221/change-the-default-directory-of-emacs-with-cocoa-emacs
+;;
+(setq command-line-default-directory "~/")
+(setq-default default-directory "~/")
+
+;;
+
 
 (let* (;; Define local variables here ...
 
