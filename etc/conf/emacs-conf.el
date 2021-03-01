@@ -80,6 +80,8 @@
 ;;(add-to-list 'default-frame-alist '(font . FONT))
 ;;(set-face-attribute 'default t :font FONT)
 
+(exec-path-from-shell-initialize)
+
 ;;
 ;;
 ;; Tools
