@@ -80,7 +80,13 @@
 ;;(add-to-list 'default-frame-alist '(font . FONT))
 ;;(set-face-attribute 'default t :font FONT)
 
-(exec-path-from-shell-initialize)
+;; A GNU Emacs library to ensure environment variables inside Emacs look the same as in the user's shell.
+;; In MacOS, when an Emacs instance launched as a GUI app, it inherits a default minimal set of environment
+;; variables that are probably not the one's seen in a terminal.
+;; The following command sets $MANPATH, $PATH, and exec-path from your shell, but only when executed in a GUI
+;; frame on MacOS and Linux.
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
 
 ;;
 ;;
