@@ -1,0 +1,24 @@
+#+LATEX_CLASS: article
+#+LATEX_COMPILER: pdflatex
+#+LATEX_CLASS_OPTIONS: [a4paper]
+
+#+BEGIN_COMMENT
+For some reason this is failing...
+#+LATEX_HEADER: \input{~/.emacs/org/LaTeX/reportHeader.tex}
+#+END_COMMENT
+
+#+TITLE:
+#+AUTHOR:
+#+EMAIL:
+#+DATE: \today
+
+#+STARTUP: showeverything inlineimages
+#+TODO: TODO FEEDBACK VERIFY REVIEW | DONE CANCELED
+
+* Introduction
+
+* Body
+
+* Conclusion
+
+* References
